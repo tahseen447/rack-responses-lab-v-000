@@ -1,7 +1,8 @@
 class application
 
   def call (env)
-    respn = Rack::Response.new
+    resp = Rack::Response.new
+    resp.finish
+  end
 
-    
 end
