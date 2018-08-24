@@ -5,7 +5,7 @@ class Application
     time = Time.new
 
     puts "#{time}"
-    puts "#{time.ctime}"
+    puts "#{time.zone}"
     if hour < 12
       resp.write("Good Morning!")
     else
